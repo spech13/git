@@ -1,0 +1,14 @@
+powershell
+
+input command:
+  ssh-keygen
+
+input "Enter" always
+
+ssh keys:
+  C:\users\user\.ssh\id_rsa
+  C:\users\user\.ssh\id_rsa.pub
+
+add id_rsa.pub in github account
+
+git clone git@github.com:user/repository_name

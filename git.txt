@@ -1,0 +1,62 @@
+GIT
+
+STATUS
+git status - status repository project: files not in index/files in index
+
+LOG
+git log --oneline - history of commits
+
+INIT
+git init - initialize local repository in current directory
+
+CHECKOUT
+git checkout <commit_id> - switch to specified commit with id "commit_id"
+git checkout <branch_name> - switch to specified branch with name "branch_name"
+git checkout -b <branch_name> - create and switch to specified branch with name "branch_name"
+git checkout -b <new_branch_name> <current_branch_name> - create and switch to branch with name "new_branch_name" and same state as "current_branch_name"
+
+RESET
+git reset <commit_id> --hard - delete all commits after specified commit with id "commit_id"
+git reset <files/directories> - return files/directories to "not in index" state
+
+BRANCH
+git branch <branch_name> - create new branch with name "branch_name"
+git branch -a - output all branches
+git branch -m <current_branch_name> <new_branch_name> - rename branch from "current_branch_name" to "new_branch_name"
+
+
+ADD
+git add <files> - add files specified in "files" to local storage
+
+COMMIT
+git commit -m <comment> - approve all changes with comment "comment"
+git commit --amend - change commit message
+
+REMOTE
+git remote add <name> <url> - add remote connection with github repository. "name" - name of connection, "url" - url of repository
+git remote get-url <name> - get url of repository by his name
+
+FETCH
+git fetch origin <branch_name> - pull remote branch
+
+REBASE
+git rebase -i HEAD~<commits_count> - interactive rebase with possible rename, squash and so on of commits on current branch
+git rebase -i <baranch_name> - interactive rebase with possible rename, squash and so on of commits to specified branch with name "branch_name"
+
+MERGE
+git merge <branch_name> - merging of current branch with specified branch with name "branch_name"
+
+CLONE
+git clone <url> - clone github repository to local machine by "url" repository
+	git clone git@github.com:spech13/django-serialization.git - clone github repository to local machine by "git@github.com:spech13/django-serialization.git" repository
+
+PULL
+git pull - pull chanches from remote repository
+
+PUSH
+git push -u origin <branch_name> - push changes to remote branch with name "branch_name"
+git push origin --delete <branch_name> - delete remote branch named "branch_name"
+	git push oring --delete SER-0001 - delete remote brach named "SER-0001"
+
+CHERRY-PICK
+git cherry-pick <commit_id> - copy commit with id "commit_id" to current branch

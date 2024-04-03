@@ -1,8 +1,5 @@
 GIT
 
-LOG
-git log --oneline - history of commits
-
 INIT
 git init - initialize local repository in current directory
 

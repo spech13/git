@@ -1,8 +1,5 @@
 GIT
 
-STATUS
-git status - status repository project: files not in index/files in index
-
 LOG
 git log --oneline - history of commits
 
@@ -45,6 +42,7 @@ git rebase -i <baranch_name> - interactive rebase with possible rename, squash a
 
 MERGE
 git merge <branch_name> - merging of current branch with specified branch with name "branch_name"
+	git merge SER-0001 - mergin main branch with specified branch with name "SER-0001"
 
 CLONE
 git clone <url> - clone github repository to local machine by "url" repository

@@ -1,8 +1,5 @@
 GIT
 
-INIT
-git init - initialize local repository in current directory
-
 CHECKOUT
 git checkout <commit_id> - switch to specified commit with id "commit_id"
 git checkout <branch_name> - switch to specified branch with name "branch_name"

@@ -1,11 +1,5 @@
 GIT
 
-CHECKOUT
-git checkout <commit_id> - switch to specified commit with id "commit_id"
-git checkout <branch_name> - switch to specified branch with name "branch_name"
-git checkout -b <branch_name> - create and switch to specified branch with name "branch_name"
-git checkout -b <new_branch_name> <current_branch_name> - create and switch to branch with name "new_branch_name" and same state as "current_branch_name"
-
 RESET
 git reset <commit_id> --hard - delete all commits after specified commit with id "commit_id"
 git reset <files/directories> - return files/directories to "not in index" state

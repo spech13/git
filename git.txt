@@ -1,15 +1,5 @@
 GIT
 
-RESET
-git reset <commit_id> --hard - delete all commits after specified commit with id "commit_id"
-git reset <files/directories> - return files/directories to "not in index" state
-
-BRANCH
-git branch <branch_name> - create new branch with name "branch_name"
-git branch -a - output all branches
-git branch -m <current_branch_name> <new_branch_name> - rename branch from "current_branch_name" to "new_branch_name"
-
-
 ADD
 git add <files> - add files specified in "files" to local storage
 

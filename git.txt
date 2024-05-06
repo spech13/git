@@ -1,9 +1,5 @@
 GIT
 
-MERGE
-git merge <branch_name> - merging of current branch with specified branch with name "branch_name"
-	git merge SER-0001 - mergin main branch with specified branch with name "SER-0001"
-
 CLONE
 git clone <url> - clone github repository to local machine by "url" repository
 	git clone git@github.com:spech13/django-serialization.git - clone github repository to local machine by "git@github.com:spech13/django-serialization.git" repository

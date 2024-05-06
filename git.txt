@@ -1,9 +1,5 @@
 GIT
 
-PUSH
-git push -u origin <branch_name> - push changes to remote branch with name "branch_name"
-git push origin --delete <branch_name> - delete remote branch named "branch_name"
-	git push oring --delete SER-0001 - delete remote brach named "SER-0001"
 
 CHERRY-PICK
 git cherry-pick <commit_id> - copy commit with id "commit_id" to current branch

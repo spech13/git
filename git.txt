@@ -1,8 +1,5 @@
 GIT
 
-FETCH
-git fetch origin <branch_name> - pull remote branch
-
 REBASE
 git rebase -i HEAD~<commits_count> - interactive rebase with possible rename, squash and so on of commits on current branch
 git rebase -i <baranch_name> - interactive rebase with possible rename, squash and so on of commits to specified branch with name "branch_name"

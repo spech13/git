@@ -1,9 +1,5 @@
 GIT
 
-REBASE
-git rebase -i HEAD~<commits_count> - interactive rebase with possible rename, squash and so on of commits on current branch
-git rebase -i <baranch_name> - interactive rebase with possible rename, squash and so on of commits to specified branch with name "branch_name"
-
 MERGE
 git merge <branch_name> - merging of current branch with specified branch with name "branch_name"
 	git merge SER-0001 - mergin main branch with specified branch with name "SER-0001"

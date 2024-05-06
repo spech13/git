@@ -1,8 +1,5 @@
 GIT
 
-ADD
-git add <files> - add files specified in "files" to local storage
-
 COMMIT
 git commit -m <comment> - approve all changes with comment "comment"
 git commit --amend - change commit message
